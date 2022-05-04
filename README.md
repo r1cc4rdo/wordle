@@ -17,5 +17,9 @@ These results are näive in the sense that the ranking is taken after a single g
 
 An interesting observation is that internet's darling "crane" only appears at the 33rd place, with an average of about 108 solutions remaining. It is supposed to be the best starting word, with an average expected reduction to about ~72 solutions.
 
+## Wordlists
+* [solutions.txt](https://github.com/r1cc4rdo/wordle/blob/main/solutions.txt): Wordle solution set, 2309 words. Dowloaded from the [NY Times website](https://static.nytimes.com/newsgraphics/2022/01/25/wordle-solver/assets/solutions.txt)
+* [valid.txt](https://github.com/r1cc4rdo/wordle/blob/main/solutions.txt): all 12972 words accepted as guesses by Wordle, INCLUDING solutions. Downloaded from [this Draco's gist](https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93)
+
 ## TODO
 * use the [```naive_best_starting_word```](https://github.com/r1cc4rdo/wordle/blob/a12ff6c61abb93ff3dbc9e6e82f02375a99429eb/wordle.py#L71) recursively to build a ```best_starting_word``` function that minimizes the expected number of guesses.
