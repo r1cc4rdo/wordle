@@ -1,0 +1,1 @@
+copy(document.body.parentElement.getInnerHTML({includeShadowRoots: true}))
